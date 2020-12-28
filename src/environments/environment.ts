@@ -3,9 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
+  production: true,
   appName: 'Udagram',
-  apiHost: 'http://udagram-reverse-proxy-svc:8080/api/v0'
+  apiHost: 'http://a9612938bbfa04034975a96c6dfd1943-953558454.us-east-1.elb.amazonaws.com:8080/api/v0'
 };
 
 /*
